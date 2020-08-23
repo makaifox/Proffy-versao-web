@@ -8,8 +8,8 @@ Proffy ( versão web )
 
 [//]: # (Add your gifs/images here:)
 <div>
- <img src="https://github.com/makaifox/Proffy-versao-web/blob/master/Pages%20Proffy/Home.png" alt="home" height="425">
- <img src="https://github.com/makaifox/Proffy-versao-web/blob/master/Pages%20Proffy/proffys%20disponiveis.png" alt="painel" height="425">
+ <img src="https://github.com/makaifox/Proffy-versao-web/blob/master/Pages%20Proffy/Home.png" alt="home" height="225">
+ <img src="https://github.com/makaifox/Proffy-versao-web/blob/master/Pages%20Proffy/proffys%20disponiveis.png" alt="painel" height="225">
 </div>
 
 <hr />
