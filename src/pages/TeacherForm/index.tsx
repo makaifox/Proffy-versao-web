@@ -81,7 +81,7 @@ function TeacherForm() {
 
     return(
         <div id="page-teacher-form" className="container">
-            <PageHeader title="Que incrível que você quer dar aulas." 
+            <PageHeader title="Que incrível que você quer oferecer seus serviços." 
             description="O primeiro passo é preencher esse formulário de inscrição"
             
             />
@@ -89,7 +89,7 @@ function TeacherForm() {
             <main>
                 <form onSubmit={handleCreateClass} >
                 <fieldset>
-                    <legend> Seus dados </legend>
+                    <legend> Dados do Profissional </legend>
 
                     <Input  
                             name="name" 
@@ -121,7 +121,7 @@ function TeacherForm() {
                 </fieldset>
 
                 <fieldset>
-                    <legend> Sobre a aula </legend>
+                    <legend> Serviço oferecido </legend>
 
                     <Select 
                     name="subject" 

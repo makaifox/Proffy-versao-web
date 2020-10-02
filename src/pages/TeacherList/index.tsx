@@ -31,11 +31,11 @@ function TeacherList() {
 
     return(
         <div id="page-teacher-list" className="container">
-            <PageHeader title="Estes são os proffys disponíveis.">
+            <PageHeader title="Estes são os profissionais disponíveis.">
                 <form id="search-teachers" onSubmit={searchTeachers}>
                 <Select 
                     name="subject" 
-                    label="Matéria"
+                    label="Serviço"
                     value={subject} 
                     onChange={(e) => {setSubject(e.target.value)}}
                     options={[
@@ -74,7 +74,7 @@ function TeacherList() {
                    <Input 
                     type="time" 
                     name="time" 
-                    label="Hora"
+                    label="Horário"
                     value={time} 
                     onChange={(e) => {
                         setTime(e.target.value)
